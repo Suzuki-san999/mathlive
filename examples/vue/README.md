@@ -40,7 +40,7 @@ The textual content of the element is used as the initial value of the editor.
 ```html
 <mathlive-mathfield
   :options="{smartFence:false}"
-  @focus="ping"
+  @="ping"
   :on-keystroke="displayKeystroke"
   v-model="formula"
 >
